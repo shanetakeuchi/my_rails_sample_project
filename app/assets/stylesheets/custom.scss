@@ -35,33 +35,6 @@ textarea {
 }
 
 
-#bannerimage {
-  background-image: url(marek-piwnicki-JnXebVlsVrg-unsplash-min.jpg);
-  max-width: 100%;
-  height: 300px;
-  text-position: center;
-  background-size: cover;
-  text-align: center;
-  h1 {
-    margin-bottom: 10px;
-    font-size: 5em;
-    color: #000;
-  }
-  h2 {
-    color: #000;
-    
-    a {
-      color: #DDD;
-      font-size: 2em;
-      &:hover {
-        color: #555;
-      }
-    }
-  }
-}
-
-
-
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -77,16 +50,16 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   letter-spacing: -1px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   font-weight: normal;
   color: $gray-light;
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 1.7em;
   color: $gray-light;
   a {
@@ -221,3 +194,33 @@ input {
     color: $state-danger-text;
   }
 }  
+
+
+
+
+#bannerimage {
+  background-image: url(marek-piwnicki-JnXebVlsVrg-unsplash-min.jpg);
+  max-width: 100%;
+  height: 300px;
+  text-position: center;
+  background-size: cover;
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+    font-size: 5em;
+    color: #000;
+  }
+  h2 {
+    color: #000;
+    text-position: center;
+    text-align: center;
+    a {
+      text-position: center;
+      color: #DDD;
+      font-size: 2em;
+      &:hover {
+        color: #555;
+      }
+    }
+  }
+}
