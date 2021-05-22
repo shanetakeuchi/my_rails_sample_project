@@ -1,3 +1,8 @@
 <h1>
-Notes  
-<h1>
+<%= @note.title %>
+</h1>
+<%= link_to "edit", edit_note_path(@note) %>
+<%= link_to "delete", @note, method: :delete, data: { confirm: "You sure?" } %>
+<div>
+<%= @note.content %>
+</div>

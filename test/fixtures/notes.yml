@@ -2,10 +2,10 @@
 
 one:
   title: MyString
-  info: MyString
+  content: MyText
   level: 1
 
 two:
   title: MyString
-  info: MyString
+  content: MyText
   level: 1
