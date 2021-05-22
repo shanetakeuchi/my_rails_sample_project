@@ -1,0 +1,11 @@
+<% provide(:title, 'Notes') %>
+<h1>Notes</h1>
+<%= link_to "Create Note", '/notes/new' %>
+
+<%= will_paginate %>
+
+<ul class="notes">
+  <%= render @notes %> 
+</ul>
+
+<%= will_paginate %>

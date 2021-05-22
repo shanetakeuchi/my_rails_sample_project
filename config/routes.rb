@@ -8,8 +8,7 @@ Rails.application.routes.draw do
   get '/model', to: 'static_pages#model'
   get '/view', to: 'static_pages#view'
   get '/controller', to: 'static_pages#controller'
+
   
-  get '/post', to: 'notes#new'
-  
-  resources :users
+  resources :notes
 end
