@@ -1,11 +1,12 @@
 <%= form_with(model: @note, local: true) do |f| %>
   <%= render 'shared/error_messages' %>
-  
+  <p>
   <%= f.label :title %>
   <%= f.text_field :title, class: 'form-control' %>
         
   <%= f.label :content %>
   <%= f.text_area :content, class: 'form-control', :cols => 30, :rows => 10 %>
+  </p>
         
   <%= f.submit "Save Changes", class: "btn btn- primary" %>
 <% end %>
